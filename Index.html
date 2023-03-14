@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+        <title>Encriptador Alura Desafio 1</title>
+    </head>
+
+    <body>
+
+        <header>
+            <img class="logo" src="Imagenes/Logo.png" alt="Logo Alura">
+        </header>
+
+        <main>
+            <section>
+                <textarea  class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+                <div>
+                    <h6 class="iformacion">Solo letras minúsculas y sin acentos</h6>
+                </div>  
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section>
+                <textarea class="mensaje" cols="20" rows="10"></textarea>
+                <div class="botones2">
+                    <button class="btn-copiar" onclick="copiar()">Copiar</button>
+                    <button class="btn-escuchar" onclick="escuchar()"></button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="nombre">Desarrollado por: Carlos Bazán Jurupe</p>
+            <div class="iconos">
+                <a> <img class="url-tiwtter" src="Imagenes/tiwtter.png" width="25px" height="25px"> </a>
+                <a> <img class="url-instagram" src="Imagenes/instagra.png" width="25px" height="25px"> </a>
+                <a> <img class="url-linkedin" src="Imagenes/linkedin.png" width="25px" height="25px"> </a>
+                <a> <img class="url-githup" src="Imagenes/github.png" width="25px" height="25px"> </a>
+            </div>
+        </footer>
+
+        <script src="scrip.js"></script>
+    </body>
+
+    
+
+</html>
